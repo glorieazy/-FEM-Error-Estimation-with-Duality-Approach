@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 from mpi4py import MPI
 import numpy as np
 import dolfinx
