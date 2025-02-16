@@ -28,3 +28,11 @@ To run the code, you will need the following dependencies:
 - `numpy`
 - `petsc` (for linear solvers)
 - `ufl` (for finite element formulations)
+
+Mesh size | L2 Error | H1 Error | L2 Rate | H1 Rate
+4x4   | 3.294039e-02 | 3.244252e-01 | (- , -)  
+8x8   | 8.235098e-03 | 1.615843e-01 | 2.00, 1.01
+16x16 | 2.058775e-03 | 8.071341e-02 | 2.00, 1.00
+32x32 | 5.146936e-04 | 4.034686e-02 | 2.00, 1.00
+64x64 | 1.286734e-04 | 2.017220e-02 | 2.00, 1.00
+128x128 | 3.216835e-05 | 1.008595e-02 | 2.00, 1.00
